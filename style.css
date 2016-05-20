@@ -33,6 +33,9 @@ nav{
 	-webkit-transform : translateZ(0);
 
 }
+nav.nav_closed{
+	overflow: hidden;
+}
 a#menu{
 	float: right;
 	border: 1px solid #ccc;
@@ -46,6 +49,11 @@ a#menu:hover{
 	background: rgba(255,255,255,0.4);
 	color: #333;
 	font-weight: 600;
+}
+ul#navlist{
+	clear: right;
+	list-style: none;
+	font-weight: 300;
 }
 
 
